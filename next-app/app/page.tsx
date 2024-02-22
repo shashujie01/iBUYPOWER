@@ -36,11 +36,11 @@ const HomePage: React.FC = () => {
         },
         640: {
           slidesPerView: 1,
-          navigation: false,
+
         },
         0: {
           slidesPerView: 1,
-          navigation: false,
+
         }
       },
       pagination: {

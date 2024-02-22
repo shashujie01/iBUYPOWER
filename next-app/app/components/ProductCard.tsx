@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import TimePicker from './TimePicker';
 
 type ProductCardProps = {
     id: number;
@@ -28,7 +27,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ id, model, os, cpu, gpu, stor
                     </div>
                     <div className='relative flex justify-center'>
                         <a href='#' className='!mt-4'>
-                            <Image src={imageUrl} alt={model} width={200} height={200} objectFit="cover" />
+                            <Image src={imageUrl} alt={model} width={200} height={200} />
                         </a>
                     </div>
                     <div className="flex flex-col gap-2">
